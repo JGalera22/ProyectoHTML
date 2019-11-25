@@ -1,0 +1,8 @@
+@font-face {
+    font-family: anillos;
+    src: url(../fonts/ring.ttf);
+}
+
+h1 {
+    font-family: anillos;
+}
