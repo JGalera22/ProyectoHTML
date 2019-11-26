@@ -1,0 +1,52 @@
+@font-face {
+    font-family: anillos;
+    src: url(../fonts/ring.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #003000;
+	background-size: contain;
+	margin: 0%;
+}
+#pagina {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#pagina img {
+	width: 100%;
+	margin: 0 auto;
+}
+/*#pagina{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#pagina #contenido {
+	width: 100%;
+	margin: 0 auto;
+}
+#pagina #contenido img {
+	width: 80%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+#pagina #contenido #logo {
+	position: absolute;
+	width: 40%;
+	height: auto;
+	width: 20%;
+	right: 40%;
+	top: 80%;
+}
+
+#pagina footer {
+	clear: both;
+	text-shadow: 2px 2px white;
+	font-size: 16px;
+	text-align: center;
+	font-family: anillos;
+}*/
