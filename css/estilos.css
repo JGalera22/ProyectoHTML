@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+#contenedor{
+	width: 80%;
+	margin: 0 auto;
+}
+#contenedor header img{
+	width: 100%;
+}
+#contenedor #contenido{
+	width: 100%;
+}
+#contenedor #contenido nav{
+	width: 20%;
+	position: fixed;
+	top: 30%;
+	left: 10%;
+	background-color: rgb(60, 46, 25);
+}
+#contenedor #contenido main{
+	width: 50%;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	text-align: justify;
+	font-family: Verdana;
+	padding: 2em;
+	background-color: rgb(60, 46, 25);
+}
+#contenedor #contenido aside{
+	width: 20%;
+	position: fixed;
+	top: 30%;
+	left: 69.6%;
+	background-color: rgb(60, 46, 25);
+}
+#contenedor #contenido aside .anuncio{
+	width: 90%;
+	margin: 1em auto;
+	border: 5px solid orange;
+}
+#contenedor #contenido aside .anuncio img{
+	width: 100%;
+}
+#contenedor footer{
+	position: fixed;
+	background-color: red;
+	width: 79.2%;
+	bottom: 1px;
+	clear: both;
+}
