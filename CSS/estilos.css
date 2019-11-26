@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url("IMG/fondo1.jpg");
+	background-size: contain;
+	
 }
 #contenedor{
 	width: 80%;
@@ -18,8 +20,8 @@ body{
 	width: 10%;
 	position: fixed;
 	top: 32%;
-	left: 10.5%;
-	background-color: rgb(30, 46, 25);
+	left: 8%;
+	background-color: rgba(30, 46, 25, 0.1);
 }
 #contenedor #contenido main{
 	width: 50%;
@@ -29,14 +31,14 @@ body{
 	text-align: justify;
 	font-family: Verdana;
 	padding: 2em;
-	background-color: rgb(30, 46, 25);
+	background-color: rgba(30, 46, 25, 0.1);
 }
 #contenedor #contenido aside{
 	width: 20%;
 	position: fixed;
 	top: 32%;
 	left: 69.6%;
-	background-color: rgb(30, 46, 25);
+	background-color: rgba(30, 46, 25, 0.1);
 }
 #contenedor #contenido aside .anuncio{
 	width: 90%;
@@ -52,4 +54,21 @@ body{
 	width: 79.2%;
 	bottom: 1px;
 	clear: both;
+}
+
+p{
+	font-family: 
+}
+
+aside{
+	border-width: 5px;
+	border-color: #000000;
+	border-style: solid; 
+}
+
+nav{
+	border-width: 5px;
+	border-color: #000000;
+	border-style: solid;
+
 }
