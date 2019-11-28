@@ -15,7 +15,7 @@ body{
 	width: 100%;
 }
 #contenedor #contenido nav{
-	width: 10%;
+	width: 20%;
 	position: fixed;
 	top: 31%;
 	left: 10.5%;
@@ -29,31 +29,29 @@ body{
 	text-align: justify;
 	font-family: Verdana;
 	padding: 2em;
-	background-color: rgb(30, 46, 25);
+	background-color: rgb(60, 46, 25);
 }
 #contenedor #contenido aside{
 	width: 20%;
 	position: fixed;
 	top: 31%;
 	left: 69.6%;
-	background-color: rgb(30, 46, 25);
+	background-color: rgb(60, 46, 25);
 }
 #contenedor #contenido aside .anuncio{
 	width: 90%;
 	margin: 1em auto;
-	border: 5px solid rgb(18, 54, 22);
+	border: 5px solid orange;
 }
 #contenedor #contenido aside .anuncio img{
 	width: 100%;
 }
-#contenedor footer{
-	position: fixed;
-	background-color: red;
-	width: 79.2%;
+#contenedor #contenido main img{
+	margin: 1em auto;
+	position: relative;
 	bottom: 1px;
-	clear: both;
-}
-.nombrePj {
-	font-size: 20px;
-	font-weight: bold;
+	top:30%;
+	max-height: 300px;
+	
+
 }
