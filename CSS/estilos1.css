@@ -9,7 +9,6 @@ body{
 	margin: 0 auto;
 }
 #contenedor header img{
-	max-height: 200px;
 	width: 100%;
 }
 #contenedor #contenido{
@@ -31,6 +30,26 @@ body{
 	font-family: Verdana;
 	padding: 2em;
 	background-color: rgb(60, 46, 25);
+}
+#contenedor #contenido main #carrusel{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+#contenedor #contenido main #carrusel #img{
+	width: 80%;
+}
+#contenedor #contenido main #carrusel .flechai{
+	width: 5%;
+	position: absolute;
+	top: 50%;
+	left: 1%;
+}
+#contenedor #contenido main #carrusel .flechad{
+	width: 5%;
+	position: absolute;
+	top: 50%;
+	right: 1%;
 }
 #contenedor #contenido aside{
 	width: 20%;
