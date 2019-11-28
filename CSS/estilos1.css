@@ -24,7 +24,7 @@ body{
 #contenedor #contenido main{
 	width: 50%;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 20%;
 	text-align: justify;
 	font-family: Verdana;
@@ -46,10 +46,12 @@ body{
 #contenedor #contenido aside .anuncio img{
 	width: 100%;
 }
-#contenedor footer{
-	position: fixed;
-	background-color: red;
-	width: 79.2%;
+#contenedor #contenido main img{
+	margin: 1em auto;
+	position: relative;
 	bottom: 1px;
-	clear: both;
+	top:30%;
+	max-height: 300px;
+	
+
 }
