@@ -9,6 +9,7 @@ body{
 	margin: 0 auto;
 }
 #contenedor header img{
+	max-height: 200px;
 	width: 100%;
 }
 #contenedor #contenido{
@@ -17,14 +18,14 @@ body{
 #contenedor #contenido nav{
 	width: 20%;
 	position: fixed;
-	top: 30%;
+	top: 40%;
 	left: 10%;
 	background-color: rgb(60, 46, 25);
 }
 #contenedor #contenido main{
 	width: 50%;
 	position: absolute;
-	top: 30%;
+	top: 40%;
 	left: 20%;
 	text-align: justify;
 	font-family: Verdana;
@@ -34,7 +35,7 @@ body{
 #contenedor #contenido aside{
 	width: 20%;
 	position: fixed;
-	top: 30%;
+	top: 40%;
 	left: 69.6%;
 	background-color: rgb(60, 46, 25);
 }
