@@ -1,3 +1,7 @@
+@font-face{
+	font-family: anillos;
+	src: url(../fonts/ring.ttf);
+}
 *{
 	box-sizing: border-box;
 }
@@ -21,7 +25,8 @@ body{
 	position: fixed;
 	top: 31%;
 	left: 10.5%;
-	background-color: rgb(30, 46, 25);
+	font-family: ring;
+	background-color: rgba(0,0,0,0.5);;
 
 }
 #contenedor #contenido main{
@@ -30,9 +35,10 @@ body{
 	top: 31%;
 	left: 20%;
 	text-align: justify;
-	font-family: Verdana;
+	font-family: ring;
 	padding: 2em;
-	background-color: rgba(60, 46, 25, 0.5);
+	background-color: rgba(0,0,0,0.5);
+	color: rgba(128, 128, 128, 1);
 }
 #contenedor #contenido main #carrusel{
 	width: 100%;
@@ -61,8 +67,8 @@ body{
 	position: fixed;
 	top: 31%;
 	left: 69.6%;
-
-	background-color: rgb(60, 46, 25);
+	font-family: ring;
+	background-color: rgba(0,0,0,0.5);;
 
 }
 #contenedor #contenido aside .anuncio{
