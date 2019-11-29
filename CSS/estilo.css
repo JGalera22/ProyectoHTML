@@ -1,0 +1,67 @@
+@font-face {
+    font-family: anillos;
+    src: url(../fonts/ring.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+body{
+	background-image: url("../IMG/fondo1.jpg");
+	background-size: contain;	margin: 0%;
+/*-----Portada e índice-------*/
+}
+#pagina {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#pagina img {
+	border-radius: 50px;
+	display: block;
+	margin: auto;
+	width: 83.5%;
+	position: relative;
+}
+
+#pagina #fotohref {
+	position: absolute;
+	width: 32%;
+	height: auto;
+	right: 34%;
+	top: 35%;
+	box-shadow: 0 0 20px #ffff00;
+}
+
+#pagina footer {
+	clear: both;
+	padding-top: 2px;
+	text-align: center;
+	font-family: anillos;
+	font-weight: bold;
+	color: rgb( 234 234 234 );
+}
+#pagina header {
+	width: 100%;
+}
+
+#pagina header img {
+	width: 85%;
+	height: auto;
+	border-radius: 0px;
+}
+#pagina #fotoindice {
+	width: 75%;
+	height: auto;
+	border-radius: 0px;
+	float:left;
+}
+#pagina #cajaanuncio {
+	width:22.45%;
+	float:left;
+	background-color: black;
+}
+#pagina #cajaanuncio .anuncio {
+	border-radius: 0px;
+
+}
+/*--------------------------------*/
