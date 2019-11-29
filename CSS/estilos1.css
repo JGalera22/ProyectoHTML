@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: black;
+	background-image: url("IMG/fondo1.jpg");
+	background-size: contain;
+	
 }
 #contenedor{
 	width: 80%;
@@ -20,6 +22,7 @@ body{
 	top: 31%;
 	left: 10.5%;
 	background-color: rgb(30, 46, 25);
+
 }
 #contenedor #contenido main{
 	width: 50%;
@@ -50,13 +53,17 @@ body{
 	position: absolute;
 	top: 50%;
 	right: 1%;
+	background-color: rgba(30, 46, 25, 0.1);
+
 }
 #contenedor #contenido aside{
 	width: 20%;
 	position: fixed;
 	top: 31%;
 	left: 69.6%;
+
 	background-color: rgb(60, 46, 25);
+
 }
 #contenedor #contenido aside .anuncio{
 	width: 90%;
@@ -70,8 +77,28 @@ body{
 	margin: 1em auto;
 	position: relative;
 	bottom: 1px;
+
 	top:30%;
 	max-height: 300px;
 	
+
+	clear: both;
+}
+
+p{
+	font-family: 
+}
+
+aside{
+	border-width: 5px;
+	border-color: #000000;
+	border-style: solid; 
+}
+
+nav{
+	border-width: 5px;
+	border-color: #000000;
+	border-style: solid;
+
 
 }
